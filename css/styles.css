@@ -291,9 +291,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
 }
-.container {
-	width: 1200px;
-}
 
 .no-underline {
 	text-decoration: none;
@@ -327,7 +324,7 @@ body {
 	align-items: center;
 	background-color: var(--main-white);
 }
-.logo-wrap{
+.logo-wrap {
 	margin-top: 24px;
 	margin-left: 215px;
 	margin-bottom: 25px;
@@ -429,7 +426,29 @@ body {
 
 /* style main */
 
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	padding-top: 94px;
+	padding-right: 15px;
+	padding-left: 15px;
+	list-style: none;
+}
+.section-ul {
+	display: flex;
+	padding-top: 50px;
+	list-style: none;
+}
 .section-light {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	background-color: var(--main-white);
 }
 
