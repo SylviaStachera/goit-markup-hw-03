@@ -271,6 +271,14 @@ summary {
 }
 
 /* style własne */
+h1,
+h2,
+p,
+ul {
+	padding: 0;
+	margin: 0;
+}
+
 :root {
 	--main-black: rgba(33, 33, 33, 1);
 	--active-color: rgba(33, 150, 243, 1);
@@ -283,44 +291,52 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
 }
-/* style header  */
-
-.header-title {
-	background-color: rgba(47, 48, 58, 1);
-}
-.style-title {
-	font-size: 44px;
-	text-transform: uppercase;
-	color: var(--main-white);
-}
-.btn-style {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	width: 200px;
-	height: 50px;
-	background-color: var(--active-color);
-	color: var(--main-white);
-}
-
-.btn-style:hover {
-	cursor: pointer;
-}
-.btn-style:active {
-	cursor: pointer;
-}
-
-.header-nav {
-	background-color: var(--main-white);
+.container {
+	width: 1200px;
 }
 
 .no-underline {
 	text-decoration: none;
 }
+/* style header  */
 
-.no-dots {
-	list-style: none;
+.active-color:hover {
+	color: var(--active-color);
+	cursor: pointer;
+}
+.active-color:active {
+	color: var(--active-color);
+	cursor: pointer;
 }
 
+.header-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+/* menu/nawigacja */
+.header-menu {
+	display: flex;
+	align-items: center;
+	background-color: var(--main-white);
+}
+
+/* .no-dots {
+	list-style: none;
+} */
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--main-white);
+}
+.logo-wrap{
+	margin-top: 24px;
+	margin-left: 215px;
+	margin-bottom: 25px;
+	padding-right: 93px;
+}
 .logo {
 	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
@@ -337,15 +353,39 @@ body {
 .logo-studio {
 	color: rgba(255, 255, 255, 1);
 }
+
+.menu-wrap {
+	display: flex;
+	list-style: none;
+}
+
 .nav-style {
+	display: flex;
+	align-items: center;
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: 0.02em;
 	line-height: 1.1428;
 }
+.nav-wrap {
+	display: flex;
+	column-gap: 46px;
+	list-style: none;
+}
 
 .nav-color {
 	color: var(--main-black);
+}
+
+.contact-wrap {
+	display: flex;
+	list-style: none;
+	/* margin-right: 227px ; */
+}
+
+.cotact-space {
+	margin-right: 227px;
+	margin-left: 50px;
 }
 
 .header-mail-tel {
@@ -355,12 +395,39 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.active-color:hover {
-	color: var(--active-color);
+/* nagłówek */
+
+.header-title {
+	padding: 200px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(47, 48, 58, 1);
+}
+.style-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: var(--main-white);
+}
+
+.btn-style {
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	width: 200px;
+	height: 50px;
+	background-color: var(--active-color);
+	color: var(--main-white);
+}
+
+.btn-style:hover {
 	cursor: pointer;
 }
-.active-color:active {
-	color: var(--active-color);
+.btn-style:active {
 	cursor: pointer;
 }
 
