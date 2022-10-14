@@ -321,10 +321,6 @@ body {
 	background-color: var(--main-white);
 }
 
-/* .no-dots {
-	list-style: none;
-} */
-
 .wrapper {
 	display: flex;
 	justify-content: space-between;
