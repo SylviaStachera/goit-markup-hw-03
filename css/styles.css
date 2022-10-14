@@ -283,12 +283,16 @@ summary {
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
 }
 
 h1,
 h2,
 p,
-ul {
+ul,
+figure {
 	margin: 0;
 	padding: 0;
 }
@@ -301,37 +305,7 @@ ul {
 }
 /* style header  */
 
-.header-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	background-color: rgba(47, 48, 58, 1);
-}
-.style-title {
-	text-align: center;
-	font-size: 44px;
-	text-transform: uppercase;
-	color: var(--main-white);
-}
-.btn-style {
-	margin-top: 30px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	width: 200px;
-	height: 50px;
-	background-color: var(--active-color);
-	color: var(--main-white);
-}
-
-.btn-style:hover {
-	cursor: pointer;
-}
-.btn-style:active {
-	cursor: pointer;
-}
-
+/* manu */
 .header-nav {
 	display: flex;
 	justify-content: space-between;
@@ -404,13 +378,55 @@ ul {
 	color: var(--active-color);
 	cursor: pointer;
 }
+/* nagłówek */
+.header-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: rgba(47, 48, 58, 1);
+}
+.style-title {
+	text-align: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: var(--main-white);
+}
+.btn-style {
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	width: 200px;
+	height: 50px;
+	background-color: var(--active-color);
+	color: var(--main-white);
+}
 
+.btn-style:hover {
+	cursor: pointer;
+}
+.btn-style:active {
+	cursor: pointer;
+}
 /* style main */
 
+.section {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 94px;
+	list-style: none;
+	margin-right: 30px;
+}
+
 .section-light {
+	list-style: none;
 	background-color: var(--main-white);
 }
 
+.extra-paddig-top {
+	padding-top: 94px;
+}
 .header-second {
 	font-weight: bold;
 	font-size: 14px;
@@ -427,6 +443,7 @@ ul {
 }
 
 .header-second-big {
+	margin-bottom: 50px;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 1.1667;
