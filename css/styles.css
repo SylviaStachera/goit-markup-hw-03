@@ -390,6 +390,8 @@ figure {
 	background-color: rgba(47, 48, 58, 1);
 }
 .style-title {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	font-size: 44px;
 	text-transform: uppercase;
