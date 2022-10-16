@@ -325,8 +325,7 @@ figure {
 }
 
 .logo-up {
-	margin-right: 93px;
-	margin: 24px 93px 25px auto;
+	margin: 24px 0 25px;
 	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
 	color: rgba(0, 0, 0, 1);
@@ -385,9 +384,9 @@ figure {
 .header-title {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	height: 600px;
 	background-color: rgba(47, 48, 58, 1);
 }
 .style-title {
@@ -396,6 +395,12 @@ figure {
 	text-transform: uppercase;
 	color: var(--main-white);
 }
+
+.btn-flex {
+	display: flex;
+	justify-content: center;
+}
+
 .btn-style {
 	margin-top: 30px;
 	font-family: 'Roboto', sans-serif;
