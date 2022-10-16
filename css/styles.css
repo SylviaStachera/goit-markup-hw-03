@@ -423,11 +423,17 @@ figure {
 /* style main */
 
 .section {
+	/* display: flex;
+	justify-content: space-between; */
+	padding-top: 94px;
+	padding-bottom: 94px;
+	/* list-style: none; */
+	margin-right: 30px;
+}
+.section-flex {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 94px;
 	list-style: none;
-	margin-right: 30px;
 }
 
 .section-light {
@@ -495,9 +501,13 @@ figure {
 	justify-content: space-between;
 	background-color: rgba(47, 48, 58, 1);
 }
-.logo-down {
-	margin-top: 60px;
+.logo-space{
+	padding-top: 60px;
 	margin-bottom: 20px;
+}
+.logo-down {
+	/* margin-top: 60px;
+	margin-bottom: 20px; */
 	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
 	color: rgba(0, 0, 0, 1);
