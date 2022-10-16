@@ -306,7 +306,7 @@ figure {
 /* style header  */
 
 .header-border {
-	border-bottom: 4px solid rgba(0, 0, 0, 0.25);;
+	border-bottom: 4px solid rgba(0, 0, 0, 0.25);
 }
 /* manu */
 .header-nav {
@@ -503,7 +503,7 @@ figure {
 	justify-content: space-between;
 	background-color: rgba(47, 48, 58, 1);
 }
-.logo-space{
+.logo-space {
 	padding-top: 60px;
 	margin-bottom: 20px;
 }
@@ -566,7 +566,7 @@ figure {
 	letter-spacing: 0.03em;
 	border-radius: 4px;
 	padding: 6px 22px;
-	border: 1 solid var(--darker-white);
+	border: 1px solid var(--darker-white);
 }
 
 .btn-portfolio:hover {
