@@ -283,9 +283,6 @@ summary {
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--main-black);
-	margin: 0 auto;
-	max-width: 1600px;
-	width: 100%;
 }
 
 h1,
@@ -306,7 +303,7 @@ figure {
 /* style header  */
 
 .header-border {
-	border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+	border-bottom: 1px solid #ececec;
 }
 /* manu */
 .header-nav {
@@ -325,7 +322,7 @@ figure {
 }
 
 .logo-up {
-	margin: 24px 0 25px;
+	margin: 24px 93px 25px 0;
 	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
 	color: rgba(0, 0, 0, 1);
@@ -508,11 +505,9 @@ figure {
 	margin-bottom: 20px;
 }
 .logo-down {
-	/* margin-top: 60px;
-	margin-bottom: 20px; */
 	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
-	color: rgba(0, 0, 0, 1);
+	color: var(--main-white);
 	height: 31px;
 	width: 145px;
 	font-weight: bold;
