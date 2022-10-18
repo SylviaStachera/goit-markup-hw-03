@@ -473,6 +473,7 @@ figure {
 
 .section-figure {
 	background-color: var(--main-white);
+	border: 1px solid #eeeeee;
 }
 
 .main-description {
@@ -584,7 +585,13 @@ figure {
 	gap: 30px;
 	padding-bottom: 94px;
 }
+.card-set-width{
+	max-width: 370px;
+}
 .main-description-portfolio {
+	margin-top: 20px;
+	margin-bottom: 4px;
+	padding-left: 24px;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 18px;
@@ -592,6 +599,8 @@ figure {
 	letter-spacing: 0.06em;
 }
 .second-description-portfolio {
+	padding-bottom: 20px;
+	padding-left: 24px;
 	line-height: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.03em;
